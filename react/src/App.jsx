@@ -2,32 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Demo2 } from './Component/appliexportcom'
+
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const name="Mohsin";
+  let 0;
+  const x=10;
   return (
     <div>
-      <h1>Mohsin</h1>
- 
-   <Emp></Emp>
-   <Branch></Branch>
-   <Demo2></Demo2>
+      <h1>Project run</h1>
+      <h3>Name is {name}</h3>
+      <h3>{x+y}</h3>
     </div>
   )
 }
 
-function Emp(){
-  return(
-    <h2>Mohsin Mahfooz</h2>
-  )
-}
-
-function Branch(){
-  return(
-    <h3>AIML</h3>
-  )
-}
 
 export default App
