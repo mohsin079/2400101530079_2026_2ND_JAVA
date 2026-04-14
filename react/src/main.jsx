@@ -8,7 +8,6 @@ import Arrow from './Arrowfun/Arrow.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Arrow />
 
   </StrictMode>,
 )
